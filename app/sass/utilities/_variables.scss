@@ -1,0 +1,35 @@
+// ****************
+// Breakpoints
+// ****************
+
+$breakpoints: (
+  sm: 479px,
+  md: 768px,
+  lg: 1024px,
+  xl: 1439px,
+);
+
+// ****************
+// Colors Variables
+// ****************
+
+//Black
+$black-1: #0e0e29;
+$black-2: rgba(0, 0, 0, 0.5);
+
+//Gray
+$gray: #ccd6cb;
+
+//Greens
+$green-1: #d9e5c7;
+$green-2: #dcffe6;
+$green-4: #5cbc6c;
+$green-5: #226317;
+$green-6: #0e5135;
+$green-7: #243d30;
+$green-8: rgba(113, 213, 171, 0.1);
+$green-9: rgba(113, 213, 171, 0.2);
+$green-10: #7fdcb5;
+
+//White
+$white: #ffffff;

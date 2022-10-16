@@ -1,0 +1,54 @@
+$res_1600: "only screen and (max-width: 1599px)";
+$res_min_1600: "only screen and (min-width: 1599px)";
+$res_1440: "only screen and (max-width: 1439px)";
+$res_1366: "only screen and (max-width: 1365px)";
+$res_1072: "only screen and (max-width: 1071px)";
+$res_768: "only screen and (max-width: 767px)";
+$res_425: "only screen and (max-width: 424px)";
+
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
+
+@mixin responsive_1600() {
+  @media #{$res_1600} {
+    @content;
+  }
+}
+
+@mixin responsive_min_1600() {
+  @media #{$res_min_1600} {
+    @content;
+  }
+}
+
+@mixin responsive_1440() {
+  @media #{$res_1440} {
+    @content;
+  }
+}
+
+@mixin responsive_1366() {
+  @media #{$res_1366} {
+    @content;
+  }
+}
+
+@mixin responsive_1072() {
+  @media #{$res_1072} {
+    @content;
+  }
+}
+
+@mixin responsive_768() {
+  @media #{$res_768} {
+    @content;
+  }
+}
+
+@mixin responsive_425() {
+  @media #{$res_425} {
+    @content;
+  }
+}

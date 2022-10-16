@@ -1,0 +1,10 @@
+@import "../utilities/fonts";
+
+h2 {
+  font-family: $kanit;
+  font-weight: 500;
+  font-size: $fs-40;
+  line-height: $fs-40;
+  display: block;
+  text-transform: capitalize;
+}
